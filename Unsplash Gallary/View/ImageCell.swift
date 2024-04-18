@@ -46,11 +46,6 @@ extension ImageCell {
         self.contentView.addSubview(activityIndicator)
         
         NSLayoutConstraint.activate([
-//            imageView.leftAnchor.constraint(equalTo: self.contentView.leftAnchor),
-//            imageView.topAnchor.constraint(equalTo: self.contentView.topAnchor),
-//            imageView.rightAnchor.constraint(equalTo: self.contentView.rightAnchor),
-//            imageView.bottomAnchor.constraint(equalTo: self.contentView.bottomAnchor),
-
             imageView.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width / 2 - 20),
             imageView.heightAnchor.constraint(equalToConstant: UIScreen.main.bounds.width / 2 - 20)
 
