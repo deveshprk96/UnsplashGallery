@@ -49,10 +49,6 @@ extension StatusCell {
         self.contentView.addSubview(activityIndicator)
         
         NSLayoutConstraint.activate([
-//            imageView.leftAnchor.constraint(equalTo: self.contentView.leftAnchor),
-//            imageView.topAnchor.constraint(equalTo: self.contentView.topAnchor),
-//            imageView.bottomAnchor.constraint(equalTo: self.contentView.bottomAnchor),
-//            imageView.widthAnchor.constraint(equalTo: self.contentView.heightAnchor),
             imageView.widthAnchor.constraint(equalToConstant: 100),
             imageView.heightAnchor.constraint(equalToConstant: 100)
         ])
